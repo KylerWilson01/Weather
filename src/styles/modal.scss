@@ -1,0 +1,27 @@
+div.ui.page.modals.active div.ui.modal {
+  background: var(--background);
+  color: var(--text);
+
+  .header {
+    background: var(--background);
+    color: var(--text);
+  }
+
+  p {
+    padding-left: 20px;
+  }
+
+  .actions {
+    background: var(--background);
+    color: var(--text);
+
+    button {
+      background: transparent;
+      color: var(--text);
+    }
+
+    button:hover {
+      background: var(--green);
+    }
+  }
+}
